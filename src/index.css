@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    @keyframes floatimage {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-2.4rem);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+  
+    .animate-floatimage {
+      animation: floatimage 4s infinite;
+    }
+  }
