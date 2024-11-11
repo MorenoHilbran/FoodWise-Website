@@ -14,20 +14,20 @@ import FormLocation from '../components/FormLocation'
 export function Waste(){
     return (
       <div>
-       {/* <Navbar />
+       <Navbar />
                <Section 
             image={WasteImage}
             judul="Mari Berkenalan"
             title="Waste Wise"
             description="Angkut Sampahmu demi lingkungan yang tercinta kita tetap terjaga! Dengan fitur ini, kami berharap dapat membantu masyarakat lebih mudah dalam mengelola sampah, sehingga lingkungan tercinta tetap terjaga dan bebas dari pencemaran. Bersama FoodWise, mari wujudkan Indonesia yang lebih bersih dan sehat!"
-        /> */}
-        {/* <Pickup /> */}
-        {/* <Plot /> */}
-        {/* <Button
+        />
+        <Pickup /> 
+        <Plot />
+        <Button
         nameButton={"Mulai Angkut"}
-        /> */}
+        /> 
         {/* <FormWaste /> */}
-        <FormLocation/>
+        {/* <FormLocation/> */}
         <Footer />
 
        </div>
